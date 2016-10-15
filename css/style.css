@@ -1,0 +1,264 @@
+.color-primary {
+  background-color: #003a54;
+}
+.color-white {
+  background-color: #ffffff;
+}
+.color-white-text {
+  color: #ffffff;
+}
+.color-secondary {
+  background-color: #007999;
+}
+.color-tertiary-dark {
+  background-color: #333333;
+}
+.color-tertiary-medium {
+  background-color: #999999;
+}
+.color-tertiary-light {
+  background-color: #e6e6e6;
+}
+.color-primary-text {
+  color: #ffffff;
+}
+.color-primary-dark-text {
+  color: #002e43;
+}
+.color-secondary-text {
+  color: #007999;
+}
+.color-tertiary-dark-text {
+  color: #333333;
+}
+.color-tertiary-medium-text {
+  color: #999999;
+}
+.color-tertiary-light-text {
+  color: #e6e6e6;
+}
+.color-error {
+  background-color: #ff1f1f;
+}
+.color-error-text {
+  color: #ff1f1f;
+}
+.color-link-text {
+  color: #00b1ff;
+}
+.t48-rg-oswald {
+  font-family: 'Oswald', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+}
+.t36-rg {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+.t36-bd-oswald {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+.t28-rg-oswald {
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+}
+.t28-lt-oswald {
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+}
+.t36-rg-oswald {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+.t21-bd-oswald {
+  font-family: 'Oswald', sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+}
+.t21-rg-oswald {
+  font-family: 'Oswald', sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+}
+.t24-lt-oswald {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+}
+.t18-rg {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.t16-rg {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.t16-bd {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.t16-lt-oswald {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.t14-lt-oswald {
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+.t21-bd {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+}
+.t21-lt-oswald {
+  font-family: 'Oswald', sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+}
+.t14-lt-italic {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+}
+.t12-rg {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+.t12-lt-oswald {
+  font-family: 'Oswald', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+}
+.t11-lt-oswald {
+  font-family: 'Oswald', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+}
+.t16-lt-oswald {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.t16-bd {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.t14-bd {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+.t14-rg {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.t11-rg {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+}
+.t12-rg {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.color-white {
+  color: white;
+}
+.margin-top-10 {
+  margin-top: 10px;
+}
+.anti-row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.container {
+  margin-top: 8vh;
+  height: 80vh;
+}
+.room-container {
+  width: auto;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 10px;
+  height: 100%;
+  background-color: #007999;
+  overflow-y: auto;
+}
+.chat-container {
+  width: auto;
+  max-width: 400px;
+  border-radius: 8px;
+  padding: 10px;
+  height: 100%;
+  background-color: white;
+  overflow-y: auto;
+}
+.text-container {
+  width: auto;
+  max-width: 400px;
+  border-radius: 8px;
+  height: 8vh;
+  padding: 10px;
+  background-color: white;
+}
+.room-row {
+  padding: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.room-row.active {
+  background-color: #fff;
+}
+body {
+  background-color: #cccccc;
+}
+.profile_pic_div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.profile_pic {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.message {
+  background-color: #ffffff;
+  border-bottom: 1px groove #ffffff;
+  padding-bottom: 10px;
+}
+.send-button {
+  background-color: #00b1ff;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 5px;
+}
+.input-message {
+  width: 100%;
+  height: 100%;
+  background-color: #E6E6E6;
+  border-radius: 4px;
+}
+.send-icon {
+  font-size: 24px;
+}

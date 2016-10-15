@@ -1,0 +1,48 @@
+<div class="row container">
+    <div class="col-md-3 col-sm-3">
+        <div class="room-container">
+            <div class="room-row"  ng-class="{'active': $index==selected_room_index}" ng-click="changeRoom(room, $index)" ng-repeat="room in rooms track by $index">{{room.label}}</div>
+        </div>
+    </div>
+    <div class="col-md-6 col-sm-6">
+        <div class=" chat-container">
+            <div class="row anti-row message" ng-class="{'margin-top-10': $index!=0}" ng-repeat="message in messages  | filter: {'room':active_room_id}">
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <div class="profile_pic_div">
+                        <img src="../img/avatar.png" class="profile_pic">
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-9 col-xs-9 ">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <div class="t14-bd">{{message.from_user.full_name}}</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="t12-rg">
+                                {{ message.message }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-container">
+            <div class="row anti-row">
+                <div class="col-md-10 col-sm-10">
+                    <textarea class="input-message" ng-model="input_message"></textarea>
+                </div>
+                <div class="col-md-2 col-sm-2">
+                    <button class="send-button" ng-click="send_message()">SEND</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+</div>
